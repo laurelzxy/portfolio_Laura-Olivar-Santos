@@ -133,3 +133,27 @@ footer{padding:2rem 0 3rem;color:var(--muted);font-size:.9rem;border-top:1px sol
  .top { justify-content: flex-start; }
  .top nav { margin-left: 0; }
 }
+
+/* Botão do Harvest Game com a marca do itch.io */
+.itch-button { display: inline-flex; align-items: center; justify-content: center; gap: .65rem; }
+.itch-button img { display: block; width: 27px; height: 24px; object-fit: contain; }
+.itch-button img.itch-mark { filter: brightness(0); }
+
+/* Ajustes dos links de contato e espaçamento do Harvest Game */
+.itch-button { margin-top: 1.5rem; }
+.icons img { display:block; width:1.8rem; height:1.8rem; object-fit:contain; }
+
+
+/* Identidade visual dos links e fundos de seções */
+#sobre, #contato { background: var(--bg); }
+.icons a img { display: block; width: 1.6rem; height: 1.6rem; object-fit: contain; }
+.contact-location { margin: 1.25rem 0 0; color: var(--muted); font-size: 1rem; }
+.itch-button { background: #a9c28f; border-color: #a9c28f; color: #20251b; }
+.itch-button:hover { background: #9bb681; border-color: #9bb681; opacity: 1; }
+
+/* Ícones de contato usam currentColor para inverter as cores no hover. */
+.icons a svg { width: 1.6rem; height: 1.6rem; display: block; }
+
+/* SVGs das tecnologias: mesma cor dos ícones originais e sem ícones genéricos. */
+.tech-icon { color: var(--accent); width: 1.1rem; min-width: 1.1rem; height: 1.1rem; }
+.tech-icon svg { display: block; width: 100%; height: 100%; overflow: visible; }
